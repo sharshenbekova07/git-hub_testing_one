@@ -10,8 +10,8 @@ public class Dancer {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "name")
-    private  String name;
+    @Column(name = "dancer_name")
+    private  String dancerName;
 
     @Column(name = "address")
     private  String address;
@@ -22,11 +22,13 @@ public class Dancer {
     @Column(name = "age")
     private  int age;
 
+
     @Column(name = "email")
     private String email;
 
     @Column(name = "password")
     private String password;
 
+    private int phoneNumber;
 
 }
