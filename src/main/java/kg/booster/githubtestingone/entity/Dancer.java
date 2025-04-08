@@ -15,4 +15,10 @@ public class Dancer {
 
     @Column(name = "address")
     private  String address;
+
+    @Column(name = "name")
+    private  String lastName;
+
+    @Column(name = "age")
+    private  int age;
 }
