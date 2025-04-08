@@ -21,4 +21,12 @@ public class Dancer {
 
     @Column(name = "age")
     private  int age;
+
+    @Column(name = "email")
+    private String email;
+
+    @Column(name = "password")
+    private String password;
+
+
 }
