@@ -16,17 +16,17 @@ public class Dancer {
     @Column(name = "address")
     private  String address;
 
-    @Column(name = "name")
+    @Column(name = "last_name")
     private  String lastName;
 
     @Column(name = "age")
     private  int age;
 
-    @Column(name = "email")
-    private String email;
+    @Column(name = "email_adr")
+    private String emailAdress;
 
-    @Column(name = "password")
-    private String password;
+    @Column(name = "pass")
+    private String pass;
 
 
 }
