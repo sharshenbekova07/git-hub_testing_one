@@ -6,21 +6,23 @@ import jakarta.persistence.*;
 @Table(name = "dancers")
 public class Dancer {
 
+    // будем проверять git update в ветке firstBranchTom ,тперь будем то же самое проверять в ветке dev
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "name")
-    private  String name;
+    @Column(name = "dancers_name")
+    private String nameOfDancer;
 
-    @Column(name = "address")
-    private  String address;
+    @Column(name = "home_address")
+    private String homeAddress;
 
     @Column(name = "last_name")
+
     private  String lastName;
 
     @Column(name = "age")
-    private  int age;
+    private int age;
 
     @Column(name = "email_adr")
     private String emailAdress;
@@ -28,5 +30,7 @@ public class Dancer {
     @Column(name = "pass")
     private String pass;
 
+    @Column(name = "phone_number")
+    private int phoneNumber;
 
 }
