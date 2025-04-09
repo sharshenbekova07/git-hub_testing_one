@@ -6,7 +6,7 @@ import jakarta.persistence.*;
 @Table(name = "dancers")
 public class Dancer {
 
-    // будем проверять git update в ветке firstBranchTom
+    // будем проверять git update в ветке firstBranchTom ,тперь будем то же самое проверять в ветке dev
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
